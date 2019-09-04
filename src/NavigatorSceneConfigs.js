@@ -346,6 +346,15 @@ var FromTheDown = {
     extrapolate: true,
     round: PIXEL_RATIO,
   },
+  translateX: {
+    from: 0,
+    to: 0,
+    min: 0,
+    max: 1,
+    type: 'linear',
+    extrapolate: true,
+    round: PIXEL_RATIO,
+  },
 };
 
 var FromTheTop = {
@@ -361,6 +370,15 @@ var FromTheTop = {
   },
   translateY: {
     from: -SCREEN_HEIGHT,
+    to: 0,
+    min: 0,
+    max: 1,
+    type: 'linear',
+    extrapolate: true,
+    round: PIXEL_RATIO,
+  },
+  translateX: {
+    from: 0,
     to: 0,
     min: 0,
     max: 1,
